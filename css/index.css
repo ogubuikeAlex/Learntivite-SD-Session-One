@@ -1,0 +1,71 @@
+:root {
+  --primary-color: #651fff;
+  --secondary-color: #0b0d0e;
+  --tertiary-color: #ececfe;
+  --tertiary-color-two: #1a284e;
+  --tertiary-color-three-: #e0f7fa;
+  --tertiary-color-four: #5C5F6E;
+
+  --primary-header: 56px;
+  --secondary-header: 48px;
+  --tertiary-header: 34px;
+  --medium-text: 18px;
+  --small-text: 16px;
+  --extra-small-text: 14px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    color: var(--tertiary-color-four);
+    font-family: "Sofia Sans", sans-serif;
+}
+
+.navbar {  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-top: 10px;
+  padding-left: 20px ;
+  padding-right: 20px;
+  padding-bottom: 10px; */
+  padding: 10px 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-right-side{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+
+.grey-border-button{
+    border: 3px solid var(--secondary-color);
+    padding: 9px 17px;
+    border-radius: 12px;
+    font-weight: 600;
+    color:var(--secondary-color);
+}
+
+.purple-button{
+    color: #fff;
+    background-color: var(--primary-color);
+    padding: 9px 17px;
+    border-radius: 12px;
+}
